@@ -3,7 +3,7 @@ NodeJS
 
 ## Comandos necessários
 ### npm install --> instala as dependencias padrão
-### npminstall express --> instala o express
+### npm install express --> instala o express
 ### npm install mongoose --> instala o mongoose (banco de dados)
 ### npm instal bcryptjs --> biblioteca de criptografia
 ### npm install jsonwebtoken --> instala o autenticador json web token
