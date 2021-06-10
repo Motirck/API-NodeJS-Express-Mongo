@@ -15,7 +15,7 @@ const UserSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true,
-        selected: false // indica para não retornar por padrão nas requisições
+        select: false // indica para não retornar por padrão nas requisições
     },
     passwordResetToken: {
         type: String,
