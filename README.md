@@ -1,5 +1,8 @@
-## NodeJS
-NodeJS
+# API criado com a ajuda da Rocketseat - [API NodeJS + Express + Mongo]
+Acesse: https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg
+
+## Node.js
+API em Node.js + Express + Mongo
 
 ## Comandos necessários
 ### npm install
