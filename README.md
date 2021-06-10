@@ -1,4 +1,4 @@
-# API criado com a ajuda da Rocketseat - [API NodeJS + Express + Mongo]
+# API criada com a ajuda da Rocketseat - [API NodeJS + Express + Mongo]
 Acesse: https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg
 
 ## Node.js
@@ -30,4 +30,4 @@ Gerenciar envio de emails (https://mailtrap.io/)
 Instala um modulo para trabalhar com templates de email
 
 ## Qual a função do middleware?
-Vai interceptar o controller e a parte da rota, ou seja, no momento que a rota chega para o servidor, antes dela chegar no método do controller existe o middleware que fará a validação da requisição e resposta para só após receber a resposta da controller. Para isso na requisição é necessário ter um header com o token de autenticação para que esse token possa ser verificado se está correto.
+O middleware irá interceptar o controller e a parte da rota, ou seja, no momento que a rota chega para o servidor, antes dela chegar no método do controller existe o middleware que fará a validação da requisição e resposta para só após receber a resposta da controller. Para isso na requisição é necessário ter um header com o token de autenticação para que esse token possa ser verificado se está correto.
