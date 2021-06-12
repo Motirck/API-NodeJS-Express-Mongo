@@ -29,5 +29,8 @@ Gerenciar envio de emails (https://mailtrap.io/)
 ### npm install nodemailer-express-handlebars
 Instala um modulo para trabalhar com templates de email
 
+## Como testar essa API?
+Dentro da pasta chamada **insomnia** existe um json que pode ser importado pelo Insomnia e que já contém todas as rotas e configurações necessárias para os testes dos endpoints
+
 ## Qual a função do middleware?
 O middleware irá interceptar o controller e a parte da rota, ou seja, no momento que a rota chega para o servidor, antes dela chegar no método do controller existe o middleware que fará a validação da requisição e resposta para só após receber a resposta da controller. Para isso na requisição é necessário ter um header com o token de autenticação para que esse token possa ser verificado se está correto.
