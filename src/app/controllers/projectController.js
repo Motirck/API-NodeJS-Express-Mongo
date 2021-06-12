@@ -65,7 +65,7 @@ router.put('/:projectId', async (req, res) => {
 
         // Deleta as tasks assosciadas ao projeto antes de cria-las novamente
         project.tasks = [];
-        await Task.remove({ project: project._id })
+        await Task.deleteMany({ project: project._id })
 
         // Promisse.all irá aguardar todas as iterações do "map" abaixo antes de seguir para a próxima linha
         await Promise.all(tasks.map(async task => {
