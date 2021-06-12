@@ -1,0 +1,33 @@
+{
+  "name": "api-nodejs-express-mongo",
+  "version": "1.0.0",
+  "description": "Acesse: https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12",
+    "nodemailer": "^6.6.1",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start:dev": "nodemon --inspect src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Motirck/NodeJS.git"
+  },
+  "author": "Ricardo Alves Paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Motirck/NodeJS/issues"
+  },
+  "homepage": "https://github.com/Motirck/NodeJS#readme"
+}
