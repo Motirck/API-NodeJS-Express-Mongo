@@ -5,23 +5,23 @@ Acesse: https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg
 API em Node.js + Express + Mongo
 
 ### Comandos necessários
-* npm install (Instala as dependencias padrão)
+> npm install (Instala as dependencias padrão)
 
-* npm install express (Instala o express)
+> npm install express (Instala o express)
 
-* npm install mongoose (Instala o mongoose (banco de dados))
+> npm install mongoose (Instala o mongoose (banco de dados))
 
-* npm instal bcryptjs (Biblioteca de criptografia)
+> npm instal bcryptjs (Biblioteca de criptografia)
 
-* npm install jsonwebtoken (Instala o autenticador json web token)
+> npm install jsonwebtoken (Instala o autenticador json web token)
 
-* npm install fs path (O fs permite trabalhar com o File System do Node e o path é para trabalhar com caminho de pastas)
+> npm install fs path (O fs permite trabalhar com o File System do Node e o path é para trabalhar com caminho de pastas)
 
-* npm install nodemailer (Gerenciar envio de emails (https://mailtrap.io/))
+> npm install nodemailer (Gerenciar envio de emails (https://mailtrap.io/))
 
-* npm install nodemailer-express-handlebars (Instala um modulo para trabalhar com templates de email)
+> npm install nodemailer-express-handlebars (Instala um modulo para trabalhar com templates de email)
 
-* npm install --save-dev nodemon (nodemon fará com que o servidor "escute" qualquer alteração e recompile automaticamente o projeto e o "--save-dev" fará com que a lib exista apenas em ambiente de Dev)
+> npm install --save-dev nodemon (nodemon fará com que o servidor "escute" qualquer alteração e recompile automaticamente o projeto e o "--save-dev" fará com que a lib exista apenas em ambiente de Dev)
 
 ### Dicas
 - Em package.json utilize o **start** dentro de **scripts** para informar qual o comando inicial será executado ao digitar **npm start**. Isso evita ter que digitar o caminho inteiro do projeto até o **index.js** toda vez que precisar de recompilação. Feito isso, podemos então instalar o pacote **nodemon** para automatizar o processo de compilação e toda vez que houver mudanças no projeto a recompilação será feita automaticamente pelo **nodemon**. Exemplo:
